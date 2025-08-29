@@ -5,9 +5,9 @@ FILE_TYPE = ".md"                                                   # File exten
 
 # Email Configuration
 NAME = "Janine Huang"                                               # Your name for email subjects
-DEFAULT_SENDER = 'janine.s.huang@jpl.nasa.gov'                      # Your email address
-DEFAULT_RECIPIENT = 'marc.i.pomerantz@jpl.nasa.gov'            # Default email recipient (your manager)
-SMTP_SERVER = 'smtp.jpl.nasa.gov'                                   # SMTP server (JPL uses smtp.jpl.nasa.gov)
+DEFAULT_SENDER = 'you@email.com'                                    # Your email address
+DEFAULT_RECIPIENT = 'boss@email.com'                                # Default email recipient (your manager)
+SMTP_SERVER = 'smtp.server'                                         # SMTP server for your workplace
 SMTP_PORT = 587                                                     # SMTP port
 
 # Content Configuration
