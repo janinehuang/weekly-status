@@ -6,9 +6,9 @@ Automate the generation and emailing of your weekly status emails to your manage
 ============================================================
 EMAIL PREVIEW
 ============================================================
-From: janine.s.huang@jpl.nasa.gov
-To: <your_manager>@jpl.nasa.gov
-Cc: janine.s.huang@jpl.nasa.gov
+From: you@email.com
+To: <your_manager>@email.com
+Cc: janine.s.huang@email.com
 Subject: Janine Huang Week 34 Status
 ------------------------------------------------------------
 Here is your weekly status report:
@@ -85,7 +85,7 @@ git clone <repository-url>
 cd <repository-directory>
 ```
 2. Update the configuration constants in `config.py`
-3. Setup JPL LDAP email credentials to save to your shell profile
+3. Setup email credentials to save to your shell profile
 ```bash
 python setup_email.py
 ```
@@ -97,7 +97,7 @@ python setup_email.py
 python weekly_status.py
 
 # Generate status for specific week and send email to specific recipient
-python weekly_status.py --week 42 --email recipient@jpl.nasa.gov
+python weekly_status.py --week 42 --email recipient@email.com
 ```
 
 **Optional Arguments:**
