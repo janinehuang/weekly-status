@@ -36,7 +36,7 @@ def setup_email():
         new_sender = input("Enter sender email: ").strip()
     
 
-    password = getpass.getpass("Enter your JPL email password (this will only be saved in your shell profile): ")
+    password = getpass.getpass("Enter your email password (this will only be saved in your shell profile): ")
     
     if new_sender and password:
         # Add to shell profile
